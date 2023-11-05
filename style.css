@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+.header .logo{
+    padding: 0;
+    background-color: white;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+.header img{
+    background-color: transparent;
+}
+.navLink{
+    height: 50px;
+    background-color: white;
+    width: 100%;
+    padding-left: 5%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.menuBar{
+    display: none;
+}
+/*media query*/
+               
+                @media screen and (max-width : 620px) {
+                    .navLink{
+                        display: none;
+                        
+                    }
+                    .cards{
+                        display: block;
+                    }
+                }
+                .navLink a{
+                    font-family: poppins;
+                    text-decoration: none;
+                    color: black;
+                    background-color: white;
+                    margin-right: 2em;
+                    font-weight: 600;
+                    margin-top: 8px;
+                }
+                .navLink a:hover{
+                    transition: 0.3s;
+                    font-size: 20px;
+                
+                }
+                .navLink i {
+                    background-color: transparent;
+                }
+                .navLink input{
+                    background-color: transparent;
+                    padding-right: 10px;
+                    color: black;
+                }         
+
+.image-Sliders{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.image1 img{
+    width: 100%;
+}
+.image2 img{
+    width: 100%;
+}
+/*cart items*/
+.cards{
+    margin: auto;
+    font-family: poppins;
+    text-decoration: none;
+    display: flex;
+
+}
+.card{
+    height: 350px;
+    width: 300px;
+    border-radius:  5px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.card img{
+    width: 100%;
+}
+.card img:hover{
+    
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+      
+}
+.card a{
+    text-decoration: none;
+    color: white;
+}
+.card button{
+    background-color: white;
+    color: black;
+    height: 10%;
+    width: 30%;
+    font-family: poppins;
+    border-radius: 3px;
+}
+.card button:hover{
+    background-color: black;
+    color: white;
+    height: 15%;
+    width: 35%;
+    font-family: poppins;
+    border-radius: 5px;
+    font-weight: 800;
+    transition: 0.3s;
+}
+@media screen and (max-width : 620px){
+    .cards{
+        padding-left: 30px;
+        margin: auto;
+        font-family: poppins;
+        text-decoration: none;
+        display: block;
+    }
+    .card{
+        margin-bottom: 100px;
+        width: 70%;
+    }
+}
+.dead-line{
+    margin-top: 100px;
+    height: 10px;
+    width: 100%;
+    background-color: white;
+}
+.final{
+    display: block;
+    font-family: poppins;
+    color: white;
+}
+.final img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+
+}
+.final p{
+    margin-left: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: x-large;
+}
+@media screen and (max-width : 620px){
+    .final img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+    
+    }
+    .final p{
+        margin-left: auto;
+        margin-left: auto;
+        display: block;
+        text-align: center;
+        font-weight: 600;
+        font-size: medium;
+    }
+    .dead-line{
+        margin-top: 100px;
+        height: 10px;
+        width: 100%;
+        background-color: white;
+    }
+}
+.footer{
+    font-family: poppins;
+    font-size: 600;
+    color: white;
+    list-style: none;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.footmenu a{
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    
+}
+.title a , li{
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.title a , li:hover{
+    transition: 0.2s;
+    margin-left: 10px;
+}
+.location {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    padding-top: 70px;
+}
+.location a{
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width : 620px){
+    .footer{
+        font-family: poppins;
+        font-size: 600;
+        color: white;
+        list-style: none;
+        display: block;
+        justify-content: center;
+    }
+    .location {
+        text-decoration: none;
+        color: white;
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+}
