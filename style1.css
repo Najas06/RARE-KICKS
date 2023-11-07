@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+.header .logo{
+    padding: 0;
+    background-color: white;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+.header img{
+    background-color: transparent;
+}
+.nav{
+    display: flex;
+}
+.nav h1{
+    color: white;
+    font-family: poppins;
+    font-weight: 800;
+    font-size: 40px;
+    margin-left: 5%;
+}
+.nav img{
+    color: white;
+    width: 80px;
+    margin-bottom: 5px;
+}
+/*cart items*/
+.cards{
+    margin: auto;
+    font-family: poppins;
+    text-decoration: none;
+    display: flex;
+
+}
+.card{
+    height: 350px;
+    width: 300px;
+    border-radius:  5px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.card img{
+    width: 100%;
+}
+.card img:hover{
+    
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+      
+}
+.card a{
+    text-decoration: none;
+    color: white;
+}
+.card button{
+    background-color: white;
+    color: black;
+    height: 10%;
+    width: 30%;
+    font-family: poppins;
+    border-radius: 3px;
+}
+.card button:hover{
+    background-color: black;
+    color: white;
+    height: 15%;
+    width: 35%;
+    font-family: poppins;
+    border-radius: 5px;
+    font-weight: 800;
+    transition: 0.3s;
+}
+.dead-line{
+    margin-top: 100px;
+    height: 10px;
+    width: 100%;
+    background-color: white;
+}
+.final{
+    display: block;
+    font-family: poppins;
+    color: white;
+}
+.final img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+
+}
+.final p{
+    margin-left: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: x-large;
+}
+.footer{
+    font-family: poppins;
+    font-size: 600;
+    color: white;
+    list-style: none;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.footmenu a{
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    
+}
+.title a , li{
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.title a , li:hover{
+    transition: 0.2s;
+    margin-left: 10px;
+}
+.location {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    padding-top: 70px;
+}
+.location a{
+    text-decoration: none;
+    color: white;
+}
+.nav button{
+    color: black;
+    background-color: white;
+    font-family: poppins;
+    font-weight: 900;
+    height: 40px;
+    width: 80px;
+    border-radius: 50px;
+    margin-left: 70%;
+    margin-top: 10px;
+}
+.nav a{
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    font-weight: 900;
+}
+.nav button:hover{
+    transition: ease-in-out 0.3s;
+    height: 45px;
+    width: 85px;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    border-color: white;
+}
+.nav a:hover{
+    color: white;
+}
+@media screen and (max-width : 620px){
+    .final img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+    
+    }
+    .final p{
+        margin-left: auto;
+        margin-left: auto;
+        display: block;
+        text-align: center;
+        font-weight: 600;
+        font-size: medium;
+    }
+    .dead-line{
+        margin-top: 100px;
+        height: 10px;
+        width: 100%;
+        background-color: white;
+    }
+}
+@media screen and (max-width : 620px){
+    .cards{
+        padding-left: 30px;
+        margin: auto;
+        font-family: poppins;
+        text-decoration: none;
+        display: block;
+    }
+    .card{
+        margin-bottom: 100px;
+        width: 70%;
+    }
+}
+@media screen and (max-width : 620px){
+    .footer{
+        font-family: poppins;
+        font-size: 600;
+        color: white;
+        list-style: none;
+        display: block;
+        justify-content: center;
+    }
+    .location {
+        text-decoration: none;
+        color: white;
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+    .nav button{
+        display: none;
+    }
+    .nav h1{
+        font-size: 30px;
+    }
+    .nav img{
+        width: 17%;
+    }
+}
