@@ -59,13 +59,14 @@
     color: white;
 }
 .card button{
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     height: 10%;
     width: 30%;
     font-family: poppins;
     border-radius: 3px;
 }
+
 .card button:hover{
     background-color: black;
     color: white;
